@@ -4,6 +4,9 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
+        minHeight: {
+            '16': '4rem', // 64px
+        },
         colors: {
             primary: '#030014',
             secondary:'#151313',

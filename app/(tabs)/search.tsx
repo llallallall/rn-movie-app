@@ -3,8 +3,9 @@ import React from 'react'
 
 const Search = () => {
     return (
-        <View>
-            <Text>Search</Text>
+        <View className={"flex-1 justify-center items-center"}>
+            <Text className={"text-4xl text-secondary font-bold"}>이거 만듬</Text>
+
         </View>
     )
 }
